@@ -1,0 +1,90 @@
+.generate-song-form {
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .generate-song-form h2 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .generate-song-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .generate-song-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #555555;
+  }
+  
+  .generate-song-form select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+    background-color: #fafafa;
+  }
+  
+  .generate-song-form select:focus {
+    border-color: #4caf50;
+    outline: none;
+  }
+  
+  .generate-song-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .generate-song-form button:hover {
+    background-color: #1976d2;
+  }
+  
+  .generate-song-form .status-section {
+    margin-top: 25px;
+  }
+  
+  .generate-song-form .error-message {
+    color: #f44336;
+    font-size: 0.9em;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .generate-song-form .success-message {
+    color: #4caf50;
+    font-size: 1em;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  @media (max-width: 600px) {
+    .generate-song-form {
+      padding: 15px 20px;
+    }
+  
+    .generate-song-form h2 {
+      font-size: 1.5em;
+    }
+  
+    .generate-song-form button {
+      font-size: 1em;
+    }
+  }
+  
